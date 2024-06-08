@@ -24,7 +24,7 @@ export default function FiltersPanel({ tasks, setFilteredTasks }) {
   }
 
   return (
-    <div className="w-full md:w-1/3 md:h-[450px] flex flex-col justify-between rounded-2xl border border-slate-500 p-3 md:p-6 backdrop-blur-md bg-slate-100 bg-opacity-10">
+    <div className="w-full md:w-1/3 md:h-[100%] flex flex-col justify-between rounded-2xl border border-slate-500 p-3 md:p-6 backdrop-blur-md bg-slate-100 bg-opacity-10">
       <div className="flex flex-col">
         <Title>Filters</Title>
         <div className="flex md:flex-col gap-2 text-slate-100 font-semibold text-sm sm:text-lg">
