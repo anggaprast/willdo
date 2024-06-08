@@ -51,7 +51,7 @@ export default function App() {
     <>
       <section>
         <div className="container h-full mx-auto px-8 md:px-12 lg:px-16 xl:px-28 py-7">
-          <div className="relative w-full h-full grid grid-cols-1 bg-slate-800 backdrop-blur-md rounded-3xl p-10 overflow-hidden">
+          <div className="relative w-full h-full grid grid-cols-1 bg-slate-800 backdrop-blur-md rounded-3xl p-7 sm:p-10 overflow-hidden">
             <h1 className="text-4xl text-slate-100 font-bold">WillDo.</h1>
             <h1 className="text-sm text-slate-100 font-bold mb-8">
               Made by{" "}
