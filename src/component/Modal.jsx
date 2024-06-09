@@ -7,7 +7,7 @@ export default function Modal({ showModal, onClose, onAddTask }) {
 
   function handleSubmit(e) {
     e.preventDefault();
-    if (!activity) return;
+    if (!activity || !time) return;
 
     const newTask = { id: Date.now(), checked: false, activity, time };
     onAddTask(newTask);
